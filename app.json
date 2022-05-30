@@ -29,6 +29,6 @@
     }
   },
   "website": "https://github.com/issacqin/HerokuHysteria",
-  "repository": "https://github.com/issacqin/HerokuHysteria",
+  "repository": "",
   "stack": "container"
 }
