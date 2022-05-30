@@ -1,6 +1,6 @@
 {
   "name": "HysHeroku",
-  "description": "Hys on heroku",
+  "description": "HysHeroku",
   "keywords": ["Hysteria"],
   "env": {
     "port": {
@@ -29,6 +29,6 @@
     }
   },
   "website": "https://github.com/Donnach/HrkHys",
-  "repository": "https://github.com/Donnach/HrkHys",
+  "repository": "",
   "stack": "container"
 }
