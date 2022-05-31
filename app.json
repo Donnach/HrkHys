@@ -1,6 +1,6 @@
 {
-  "name": "HysHeroku",
-  "description": "HysHeroku",
+  "name": "HrkHys",
+  "description": "HrkHys",
   "keywords": ["Hysteria"],
   "env": {
     "port": {
