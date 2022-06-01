@@ -184,7 +184,7 @@ systemctl daemon-reload
 systemctl enable hysteria
 systemctl start hysteria
 echo -e "\033[1;;35m\nwait...\n\033[0m"
-sleep 3
+sleep 5
 status=`systemctl is-active hysteria`
 
 if [ "${status}" = "active" ]; then
