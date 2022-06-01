@@ -186,7 +186,8 @@ systemctl start hysteria
 echo -e "\033[1;;35m\nwait...\n\033[0m"
 sleep 5
 status=`systemctl is-active hysteria`
-
+cat ./config.json
+  
 if [ "${status}" = "active" ]; then
   crontab -l > ./crontab.tmp
   echo  "0 4 * * * systemctl restart hysteria" >> ./crontab.tmp
